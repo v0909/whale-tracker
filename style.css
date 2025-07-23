@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f2f5;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.tabs button:hover {
+  background: #0056b3;
+}
+
+.tab-content {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.tx {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.tx a {
+  color: #007bff;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.tx span {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-top: 4px;
+}

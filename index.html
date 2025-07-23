@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Whale Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Crypto Whale Tracker</h1>
+
+  <div class="tabs">
+    <button onclick="showTab('eth')">ETH</button>
+    <button onclick="showTab('btc')">BTC</button>
+    <button onclick="showTab('sol')">SOL</button>
+  </div>
+
+  <div id="whale-data">
+    <div id="eth" class="tab-content">Loading ETH data...</div>
+    <div id="btc" class="tab-content" style="display: none;">Loading BTC data...</div>
+    <div id="sol" class="tab-content" style="display: none;">Loading SOL data...</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "eth": [
+    {
+      "address": "0xABC123...",
+      "amount": 123.45,
+      "usd": 357800,
+      "type": "sender",
+      "time": "2025-07-23 20:30 UTC"
+    }
+  ],
+  "btc": [
+    {
+      "address": "1BTCFakeAddress...",
+      "amount": 15.25,
+      "usd": 976000,
+      "type": "sender",
+      "time": "2025-07-23 20:31 UTC"
+    }
+  ],
+  "sol": [
+    {
+      "address": "SoLExampleAddr...",
+      "amount": 7025.50,
+      "usd": 98357,
+      "type": "sender",
+      "time": "2025-07-23 20:32 UTC"
+    }
+  ]
+}
